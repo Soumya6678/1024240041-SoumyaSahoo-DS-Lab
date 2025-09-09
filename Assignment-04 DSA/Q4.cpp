@@ -3,7 +3,7 @@
 using namespace std;
 
 void firstNonRepeating(string s) {
-    int freq[256] = {0};  
+    int freq[26] = {0};  
     queue<char> q;
 
     for (char ch : s) {
@@ -25,4 +25,5 @@ int main() {
     firstNonRepeating(input);
     return 0;
 }
+
 
